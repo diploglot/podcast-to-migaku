@@ -1,0 +1,53 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+env/
+ENV/
+
+# Processing directories (users will add their own files)
+to-process/
+complete/
+
+# Processing outputs (users will generate their own)
+*.mkv
+*.srt
+*.vtt
+*.tsv
+*.txt
+*.json
+
+# Log files
+*.log
+podcast_processing.log
+
+# Temporary files
+test_*
+temp_*
+ffmpeg
+
+# User-specific files (examples only, users add their own)
+*.mp3
+*.wav
+*.m4a
+*.aac
+*.flac
+*.ogg
+*.mp4
+
+# Keep example image but ignore user images
+!image.jpg
+
+# System files
+.DS_Store
+Thumbs.db
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
